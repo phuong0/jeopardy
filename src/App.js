@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import questionData from './question-data.json';
-
+import Question from './Question.js';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
         <div className="board">
             {/* Column - 1 (HISTORY) */}
             <div className="column">
-
+            <Question />
             </div>
             {/* Column - 2 (SPORTS) */}
             <div className="column">
