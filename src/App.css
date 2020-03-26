@@ -7,10 +7,13 @@
     display:flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 90%;
+    width: 75%;
 }
 
 .column {
     display:flex;
     flex-direction: column;
+}
+body {
+    background-color: blue;
 }

@@ -1,4 +1,8 @@
 p {
     padding: 5px;
-    color: red;
+    color:white;
+}
+.boxes {
+    border: 1px solid black;
+    margin-bottom: 5px;
 }

@@ -11,15 +11,48 @@ function App() {
         <div className="board">
             {/* Column - 1 (HISTORY) */}
             <div className="column">
-            <Question />
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
             </div>
             {/* Column - 2 (SPORTS) */}
             <div className="column">
-
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
             </div>
             {/* Column - 3 (TECH) */}
             <div className="column">
-
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
+                <Question 
+                    point={"Hello"}
+                    question={"world"}
+                    answer={"! :)"}/>
             </div>
         </div>
     </div>
