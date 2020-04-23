@@ -5,15 +5,23 @@
 
 .board {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
-    width: 75%;
+    width: 100%;
 }
 
 .column {
     display:flex;
     flex-direction: column;
+    width: 150px;
 }
 body {
     background-color: blue;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-transform: capitalize;
+    text-align: center;
 }
